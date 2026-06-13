@@ -7,7 +7,10 @@ public class Goal
 {
     [BsonId]
     [BsonRepresentation(BsonType.ObjectId)]
+   
     public string? Id { get; set; }
+    
+    public string? Icon { get; set; }
 
     public string? Name { get; set; }
 
